@@ -57,7 +57,7 @@ footer a {
   font-size: 14px;
   padding: 0 30px;
   text-decoration: none;
-  text-transform: Capitalize;
+  text-transform: Uppercase;
   transition: .2s color linear;
   -webkit-transition: .2s color linear;
 }

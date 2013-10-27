@@ -6,13 +6,11 @@ body{
 
 h1 {
 	color: #0F9;
-	font-family: 'Ruda', sans-serif;
 	text-transform: uppercase;
 	}
 
 h2{
 	color: black;
-	font-family: 'Ruda', sans-serif;
 	text-transform: Uppercase;
 	}
 	
@@ -38,14 +36,11 @@ nav li {
 
 nav a {
   color: white;
-  
   padding: 0 30px;
   text-transform: uppercase;
   text-decoration: none;
   transition: .2s color linear;
   -webkit-transition: .2s color linear;
-  -moz-transition: .2s color linear;
-  -o-transition: .2s color linear;
 }
 
 nav a:hover {
@@ -56,6 +51,22 @@ nav a:hover {
 p {
 	font-family: 'Open Sans', sans-serif;
 	}
+
+footer a {
+  color: white;
+  font-size: 14px;
+  padding: 0 30px;
+  text-decoration: none;
+  text-transform: Capitalize;
+  transition: .2s color linear;
+  -webkit-transition: .2s color linear;
+}
+
+footer li {
+  float: left;
+  list-style: none;
+  line-height: 80px;
+}
 
 header, footer {
 	background: black;

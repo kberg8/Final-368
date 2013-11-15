@@ -1,17 +1,34 @@
 /* Stylesheet */
 
 body{
-	background: url("../img/wild_flowers.png");
+	background: url("../img/cream_dust.png");
+	color: #555;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
 	}
 
 h1 {
-	color: #0F9;
+	color: #F66;
+	font-weight: 400;
+	height: 40px;
+	letter-spacing: 5px;
+	line-height: 40px;
+	margin: 10px 0;
+	padding: 10px 30px;
 	text-transform: uppercase;
 	}
 
-h2{
-	color: black;
+h2 {
+	color: #F66;
+	font-weight: 400;
 	text-transform: Uppercase;
+	}
+
+h3 {
+	color: #F66;
+	font-weight: 400;
+	text-transform: uppercase;
 	}
 	
 ul {
@@ -27,17 +44,46 @@ ul {
 img {
 	width: 100%;
 }
+
+.form-sheet {
+	width: 335px;
+	margin: 0 auto;
+	}
 	
+input, textarea {
+	background: #555;
+	border: none;
+	color: #F66;
+	float: right;
+	}
+	
+input[type="submit"] {
+  background: #F66;
+  border-radius: 10px;
+  border: none;
+  color: #555;
+  clear: both;
+  margin-top: 13px;
+}
+
+textarea {
+	width: 200px;
+	height: 100px;
+	}
+
 
 nav li {
   float: left;
   list-style: none;
-  line-height: 80px;
 }
 
-nav a {
-  color: white;
-  padding: 0 30px;
+nav a { 
+  color: #F66;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  margin: 10px 0;
+  padding: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
   transition: .2s color linear;
@@ -45,18 +91,20 @@ nav a {
 }
 
 nav a:hover {
-	color: #0F9;
+	color: white;
 }
 
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
 	}
 
 footer a {
-  color: white;
+  background: #555;
+  color: #F66;
   font-size: 14px;
-  padding: 0 30px;
+  padding: 20px 30px;
   text-decoration: none;
   text-transform: Uppercase;
   transition: .2s color linear;
@@ -69,11 +117,14 @@ footer li {
   line-height: 80px;
 }
 
-header, footer {
-	background: black;
+footer a:hover {
 	color: white;
-	height: 80px;
-}
+	}
+
+header, footer {
+	background: #555;
+	}
+
 
 /* Help Class to Show Grid */
 .showgrid {

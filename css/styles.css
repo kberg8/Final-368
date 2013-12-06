@@ -31,6 +31,12 @@ h3 {
 	text-transform: uppercase;
 	}
 	
+h4 {
+	color: #F66;
+	font-weight: 400;
+	text-transform: uppercase;
+	}
+	
 ul {
 	margin: 0;
 	padding: 0;
@@ -70,7 +76,6 @@ textarea {
 	width: 200px;
 	height: 100px;
 	}
-
 
 nav li {
   float: left;
@@ -130,3 +135,151 @@ header, footer {
 .showgrid {
 	background: url("../img/12-col-grid.gif") !important;
 }
+
+
+
+/* ===========================
+		GRID SYSTEM
+==========================*/
+
+	.container {
+		margin: 0 auto;
+		width: 960px;
+		}
+	
+	.grid-10 {
+		float: left;
+		width: 10%;
+		}
+		
+	.grid-20 {
+		float: left;
+		width: 20%;
+		}
+		
+	.grid-30 {
+		float: left;
+		width: 30%;
+		}
+		
+	.grid-33 {
+		float: left;
+		width: 33%;
+		}
+		
+	.grid-40 {
+		float: left;
+		width: 40%;
+		}
+		
+	.grid-50 {
+		float: left;
+		width: 50%;
+		} 
+		
+	.grid-60 {
+		float: left;
+		width: 60%;
+		}
+		
+	.grid-66 {
+		float: left;
+		width: 66%;
+		}
+		
+	.grid-70 {
+		float: left;
+		width: 70%;
+		}
+		
+	.grid-80 {
+		float: left;
+		width: 80%;
+		}
+		
+	.grid-90 {
+		float: left;
+		width: 90%;
+		}
+		
+	.grid-100 {
+		float: left;
+		width: 100%;
+		}
+		
+
+
+
+/* ===========================
+		DESKTOP
+==========================*/
+
+@media screen and ( max-width: 1024px )
+{
+	.container {
+	width: 768px;
+	}
+	
+	.grid-50 {
+		float: left;
+		width: 50%;
+		} 
+		
+	.grid-100 {
+		float: left;
+		width: 100%;
+		} 
+	
+}	
+	
+/* END OF DESKTOP */
+
+
+/* ===========================
+		TABLET
+==========================*/
+
+@media screen and ( max-width: 768px )
+{
+	
+	.container {
+	width: 100%;
+	}
+	
+	.grid-50 {
+		float: none;
+		width: 100%;
+		} 
+		
+	.grid-100 {
+		float: none;
+		width: 100%;
+		} 
+
+}	
+	
+/* END OF TABLET */
+
+
+/* ===========================
+		PHONE
+==========================*/
+
+@media screen and  (max-width: 480px )
+{
+	.container {
+	width: 100%;
+	}
+	
+	.grid-50 {
+		float: none;
+		width: 100%;
+		} 
+		
+	.grid-100 {
+		float: none;
+		width: 100%;
+		} 
+}	
+	
+/* END OF PHONE */

@@ -31,6 +31,12 @@ h3 {
 	text-transform: uppercase;
 	}
 	
+h4 {
+	color: #F66;
+	font-weight: 400;
+	text-transform: uppercase;
+	}
+	
 ul {
 	margin: 0;
 	padding: 0;
@@ -70,7 +76,6 @@ textarea {
 	width: 200px;
 	height: 100px;
 	}
-
 
 nav li {
   float: left;
@@ -133,6 +138,7 @@ header, footer {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -146,10 +152,48 @@ header, footer {
 	}
 	
 .grid-50 {
+=======
+/* ===========================
+		GRID SYSTEM
+==========================*/
+
+	.container {
+		margin: 0 auto;
+		width: 960px;
+		}
+	
+	.grid-10 {
+		float: left;
+		width: 10%;
+		}
+		
+	.grid-20 {
+		float: left;
+		width: 20%;
+		}
+		
+	.grid-30 {
+		float: left;
+		width: 30%;
+		}
+		
+	.grid-33 {
+		float: left;
+		width: 33%;
+		}
+		
+	.grid-40 {
+		float: left;
+		width: 40%;
+		}
+		
+	.grid-50 {
+>>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
 		float: left;
 		width: 50%;
 		} 
 		
+<<<<<<< HEAD
 .grid-100 {
 		float: left;
 		width: 100%;
@@ -166,6 +210,39 @@ header, footer {
   width: 0;
   height: 0;
 }
+=======
+	.grid-60 {
+		float: left;
+		width: 60%;
+		}
+		
+	.grid-66 {
+		float: left;
+		width: 66%;
+		}
+		
+	.grid-70 {
+		float: left;
+		width: 70%;
+		}
+		
+	.grid-80 {
+		float: left;
+		width: 80%;
+		}
+		
+	.grid-90 {
+		float: left;
+		width: 90%;
+		}
+		
+	.grid-100 {
+		float: left;
+		width: 100%;
+		}
+		
+
+>>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
 
 
 /* ===========================
@@ -187,7 +264,11 @@ header, footer {
 		float: left;
 		width: 100%;
 		} 
+<<<<<<< HEAD
 		
+=======
+	
+>>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
 }	
 	
 /* END OF DESKTOP */
@@ -238,7 +319,10 @@ header, footer {
 		float: none;
 		width: 100%;
 		} 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
 }	
 	
 /* END OF PHONE */

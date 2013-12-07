@@ -103,7 +103,7 @@ p {
 footer a {
   background: #555;
   color: #F66;
-  font-size: 14px;
+  font-size: .875em; /* 14px / 16px = .875em */
   padding: 20px 30px;
   text-decoration: none;
   text-transform: Uppercase;
@@ -130,3 +130,115 @@ header, footer {
 .showgrid {
 	background: url("../img/12-col-grid.gif") !important;
 }
+
+
+
+
+
+
+/* ===========================
+		FLUID GRID
+==========================*/
+
+.container {
+	margin: 0 auto; 
+	width: 960px;
+	}
+	
+.grid-50 {
+		float: left;
+		width: 50%;
+		} 
+		
+.grid-100 {
+		float: left;
+		width: 100%;
+		} 
+
+.container:before,
+.container:after {	
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+
+/* ===========================
+		DESKTOP
+==========================*/
+
+@media screen and ( max-width: 1024px )
+{
+	.container {
+	width: 768px;
+	}
+	
+	.grid-50 {
+		float: left;
+		width: 50%;
+		} 
+		
+	.grid-100 {
+		float: left;
+		width: 100%;
+		} 
+		
+}	
+	
+/* END OF DESKTOP */
+
+
+/* ===========================
+		TABLET
+==========================*/
+
+@media screen and ( max-width: 768px )
+{
+	
+	.container {
+	width: 100%;
+	}
+	
+	.grid-50 {
+		float: none;
+		width: 100%;
+		} 
+		
+	.grid-100 {
+		float: none;
+		width: 100%;
+		} 
+
+}	
+	
+/* END OF TABLET */
+
+
+/* ===========================
+		PHONE
+==========================*/
+
+@media screen and  (max-width: 480px )
+{
+	.container {
+	width: 100%;
+	}
+	
+	.grid-50 {
+		float: none;
+		width: 100%;
+		} 
+		
+	.grid-100 {
+		float: none;
+		width: 100%;
+		} 
+
+}	
+	
+/* END OF PHONE */

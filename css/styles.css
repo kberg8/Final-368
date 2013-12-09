@@ -1,5 +1,6 @@
 /* Stylesheet */
 
+
 body{
 	background: url("../img/cream_dust.png");
 	color: #555;
@@ -43,15 +44,31 @@ ul {
 	list-style: none;
 }
 
+a {
+	text-decoration: none;
+	}
+	
+h3:hover {
+	color: #555;	
+	transition: .2s color linear;
+   -webkit-transition: .2s color linear;
+	}
+	
 #blockquote {
 	text-align: center;
 	}
 
 img {
+	padding: 10px 0;
 	width: 100%;
 }
 
 .form-sheet {
+	width: 335px;
+	margin: 0 auto;
+	}
+	
+.info-contact {
 	width: 335px;
 	margin: 0 auto;
 	}
@@ -99,9 +116,17 @@ nav a:hover {
 	color: white;
 }
 
+.padding-left {
+	padding-left: 30px;
+	}
+
+.padding-center {
+	padding: 0 15px;
+	}	
+
 
 p {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Galdeano', sans-serif;
 	font-weight: 300;
 	}
 
@@ -137,9 +162,50 @@ header, footer {
 }
 
 
+/* ===========================
+		SLIDESHOW
+==========================*/
 
-<<<<<<< HEAD
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
 
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#slideshow img {
+	padding: 0;
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  max-height: 400px;
+  overflow: hidden;
+  text-align: center;
+ 
+}
+.gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
 
 
 /* ===========================
@@ -151,8 +217,30 @@ header, footer {
 	width: 960px;
 	}
 	
-.grid-50 {
-=======
+.row {
+	width: 100%;
+}
+	
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.container:after,
+.row:after {
+  clear: both;
+}
+
 /* ===========================
 		GRID SYSTEM
 ==========================*/
@@ -188,29 +276,10 @@ header, footer {
 		}
 		
 	.grid-50 {
->>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
 		float: left;
 		width: 50%;
 		} 
 		
-<<<<<<< HEAD
-.grid-100 {
-		float: left;
-		width: 100%;
-		} 
-
-.container:before,
-.container:after {	
-  content: '.';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  font-size: 0;
-  line-height: 0;
-  width: 0;
-  height: 0;
-}
-=======
 	.grid-60 {
 		float: left;
 		width: 60%;
@@ -242,8 +311,6 @@ header, footer {
 		}
 		
 
->>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
-
 
 /* ===========================
 		DESKTOP
@@ -254,21 +321,11 @@ header, footer {
 	.container {
 	width: 768px;
 	}
-	
-	.grid-50 {
-		float: left;
-		width: 50%;
-		} 
-		
-	.grid-100 {
-		float: left;
-		width: 100%;
-		} 
-<<<<<<< HEAD
-		
-=======
-	
->>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
+
+	nav a { 
+	padding: 10px 25px;
+	}
+
 }	
 	
 /* END OF DESKTOP */
@@ -285,16 +342,42 @@ header, footer {
 	width: 100%;
 	}
 	
-	.grid-50 {
-		float: none;
-		width: 100%;
-		} 
-		
+	.grid-10,
+	.grid-20,
+	.grid-30,
+	.grid-33,
+	.grid-40,
+	.grid-50,
+	.grid-60,
+	.grid-66,
+	.grid-70,
+	.grid-80,
+	.grid-90,
 	.grid-100 {
 		float: none;
 		width: 100%;
-		} 
-
+	}
+	
+	nav ul {
+		margin: left;
+		padding: 0;
+		}
+		
+	nav li {
+		float: none;
+		text-align: center;
+		width: inherit;
+		}
+		
+	nav a { 
+	margin: 0;
+	padding: 2px;
+	}
+	
+	.padding-center {
+	padding: 0;
+	}
+	
 }	
 	
 /* END OF TABLET */
@@ -310,19 +393,53 @@ header, footer {
 	width: 100%;
 	}
 	
-	.grid-50 {
-		float: none;
-		width: 100%;
-		} 
-		
+	.grid-10,
+	.grid-20,
+	.grid-30,
+	.grid-33,
+	.grid-40,
+	.grid-50,
+	.grid-60,
+	.grid-66,
+	.grid-70,
+	.grid-80,
+	.grid-90,
 	.grid-100 {
 		float: none;
 		width: 100%;
-		} 
-<<<<<<< HEAD
-
-=======
->>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
+	}
+	
+	nav ul {
+		margin: left;
+		padding: 0;
+		}
+		
+	nav li {
+		float: none;
+		text-align: center;
+		width: inherit;
+		}
+		
+	nav a { 
+	margin: 0;
+	padding: 2px;
+	}
+		
+	footer a {
+	margin: 0;
+	padding: 2px;
+	}
+	
+	footer li {
+	float: none;
+	text-align: center;
+	width: inherit;
+	}
+	
+	.padding-center {
+		padding: 0;
+	}
 }	
+
 	
 /* END OF PHONE */

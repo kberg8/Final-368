@@ -9,7 +9,9 @@
 		
 	<link href="favicon.ico" rel="icon" type="image/x-icon" />
 	<link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Galdeano' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/styles.css" />
 	
     <!-- <link rel="stylesheet" href="css/960.css" /> -->
@@ -21,20 +23,12 @@
 <!-- Header -->
 
 <header class="container"> 
-<<<<<<< HEAD
-<div class="grid-50"> <h1>Kelsey Berg</h1>
-=======
 <div class="grid-40"> <h1>Kelsey Berg</h1>
->>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
 </div>
 
 <!-- Navigation -->
 
-<<<<<<< HEAD
-<nav class="grid-50">
-=======
 <nav class="grid-60">
->>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
 	<ul>
 		<li id="home"><a href="index.html">Home</a></li>
 		<li id="about-me"><a href="aboutme.html">About Me</a></li>
@@ -57,11 +51,42 @@
 <!--Cover Photo-->
 
 <div class="grid-100" id="cover">
-<<<<<<< HEAD
-	<img src="img/sunset1.jpg">
-=======
-	<img src="img/Cover.jpg">
->>>>>>> 25728d727919ebe2bf0bce1dcff8be9440f91454
+
+	<div id="slideshow">
+<div class="gallery items-4 autoplay">
+  <div id="item-1" class="control-operator"></div>
+  <div id="item-2" class="control-operator"></div>
+  <div id="item-3" class="control-operator"></div>
+  <div id="item-4" class="control-operator"></div>
+
+  <figure class="item">
+    <img src="img/Cover.jpg" />
+  </figure>
+
+  <figure class="item">
+    <img src="img/wedding4.jpg" />
+  </figure>
+
+  <figure class="item">
+    <img src="img/wedding10.jpg" />
+  </figure>
+  
+    <figure class="item">
+    <img src="img/wedding12.jpg" />
+  </figure>
+
+  <div class="controls">
+    <a href="#item-1" class="control-button">.</a>
+    <a href="#item-2" class="control-button">.</a>
+    <a href="#item-3" class="control-button">.</a>
+    <a href="#item-4" class="control-button">.</a>
+  </div>
+</div>
+</div>
+
+
+
+	<!--<img src="img/Cover.jpg">-->
 </div>
 
 <!-- About Me -->	
@@ -69,23 +94,35 @@
 <article class="grid-100">
 
 	<section class="grid-33">
+    <div class="padding-center">
+    <a href="aboutme.html">
 	<h3>Get to know me!</h3>
+    </a>
 	<p> I am a Graphic Designer, Photographer, and an "In-The-Works" Web Designer. I enjoy doing a variety of different activites outdoors and in.  </p>
+    </div>
     </section>
     
     <section class="grid-33">
+    <div class="padding-center">
+    <a href="portfolio.html">
 	<h3>Check Out My Work!</h3>
+    </a>
 	<p>If you have a project you are interested in working on, don't hesitate to contact me! I would love to work with you!</p>
+    </div>
 	</section>
     
 	<section class="grid-33">
+    <div class="padding-center">
+    <a href="contact.html"> 
 	<h3>Give me a call!</h3>
+    </a>
 	<p> Like what you see? Feel free to contact me with questions, projects, inquires, or just to chat! </p>
+    </div>
 	</section>
     
     
 </article>
-        
+  </div>      
 <!-- Footer --> 
 
 <div class="container" id="footer">

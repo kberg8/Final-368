@@ -94,6 +94,11 @@ textarea {
 	height: 100px;
 	}
 
+
+
+/*=================================
+			NAVIGATION
+==================================*/
 nav li {
   float: left;
   list-style: none;
@@ -102,10 +107,10 @@ nav li {
 nav a { 
   color: #F66;
   display: block;
-  height: 40px;
+  height: 32px;
   line-height: 40px;
-  margin: 10px 0;
-  padding: 10px 30px;
+  margin: 18px 0;
+  padding: 0px 35px;
   text-transform: uppercase;
   text-decoration: none;
   transition: .2s color linear;
@@ -115,6 +120,80 @@ nav a {
 nav a:hover {
 	color: white;
 }
+
+
+
+/* show home.png (OFF STATE) */
+#home a:link {
+  background: url("../img/sprites/Sprite-Map.png") no-repeat;
+}
+
+/* show home.png (ON STATE) */
+#home a:hover {
+  background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -31px;
+}
+
+/* OFF STATE */
+#about-me a:link {
+	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -64px;
+}
+
+/* ON STATE */
+#about-me a:hover {
+	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -97px;
+}
+
+/* OFF STATE */
+#portfolio a:link {
+	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -128px;
+}
+  
+/* ON STATE */
+#portfolio a:hover {
+	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -160px;
+}
+
+/* OFF STATE */
+#contact-me a:link {
+	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -192px;
+}
+  
+/* ON STATE */
+#contact-me a:hover {
+	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -224px;
+}
+
+/* show home.png (OFF STATE) */
+#pinterest a:link {
+  background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -256px; ;
+}
+
+/* show home.png (ON STATE) */
+#pinterest a:hover {
+  background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -288px;
+}
+
+/* OFF STATE */
+#facebook a:link {
+	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -320px;
+}
+
+/* ON STATE */
+#facebook a:hover {
+	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -352px;
+}
+
+/* OFF STATE */
+#github a:link {
+	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -384px;
+}
+  
+/* ON STATE */
+#github a:hover {
+	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -416px;
+}
+
+
 
 .padding-left {
 	padding-left: 30px;
@@ -131,12 +210,14 @@ p {
 	}
 
 footer a {
-  background: #555;
   color: #F66;
-  font-size: .875em; /* 14px / 16px = .875em */
-  padding: 20px 30px;
+  display: block;
+  height: 32px;
+  line-height: 40px;
+  margin: 18px 0;
+  padding: 0px 35px;
+  text-transform: uppercase;
   text-decoration: none;
-  text-transform: Uppercase;
   transition: .2s color linear;
   -webkit-transition: .2s color linear;
 }
@@ -223,6 +304,7 @@ header, footer {
 	
 .container:before,
 .container:after,
+.grid-100:after,
 .row:before,
 .row:after {
   content: '.';
@@ -237,6 +319,7 @@ header, footer {
 
 
 .container:after,
+.grid-100:after,
 .row:after {
   clear: both;
 }
@@ -323,7 +406,7 @@ header, footer {
 	}
 
 	nav a { 
-	padding: 10px 25px;
+	padding: 0px 25px;
 	}
 
 }	
@@ -368,10 +451,11 @@ header, footer {
 		text-align: center;
 		width: inherit;
 		}
+	
 		
 	nav a { 
 	margin: 0;
-	padding: 2px;
+	padding: 0px;
 	}
 	
 	.padding-center {
@@ -422,12 +506,12 @@ header, footer {
 		
 	nav a { 
 	margin: 0;
-	padding: 2px;
+	padding: 0px;
 	}
 		
 	footer a {
 	margin: 0;
-	padding: 2px;
+	padding: 0px;
 	}
 	
 	footer li {

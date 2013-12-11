@@ -1,0 +1,33 @@
+Kelsey Berg
+December 10, 2013
+Web Design 1
+
+Attributions:
+
+Name: http://iconmonstr.com/
+Icons- House, Person outline, Briefcase, Phone, Pinterest, Facebook, and Github icons
+
+Name: http://codepen.io/
+Examples of Pens created in class
+
+Name: http://benschwarz.github.io/gallery-css/
+CSS Gallery code to create home page photo animation
+
+Name: http://www.google.com/fonts
+Used for google fonts and fonts I used in my website
+
+Name: https://www.dropbox.com/s/jcahlrpqzd1na7x/Style-Tile.psd
+Style Tile used to create layout guide for website
+
+
+
+
+
+
+
+
+
+
+
+
+

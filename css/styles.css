@@ -125,72 +125,72 @@ nav a:hover {
 
 /* show home.png (OFF STATE) */
 #home a:link {
-  background: url("../img/sprites/Sprite-Map.png") no-repeat;
+  background: url("../sprites/Sprite-Map.png") no-repeat;
 }
 
 /* show home.png (ON STATE) */
 #home a:hover {
-  background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -31px;
+  background: url("../sprites/Sprite-Map.png") no-repeat 0 -31px;
 }
 
 /* OFF STATE */
 #about-me a:link {
-	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -64px;
+	background: url("../sprites/Sprite-Map.png") no-repeat 0 -64px;
 }
 
 /* ON STATE */
 #about-me a:hover {
-	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -97px;
+	background: url("../sprites/Sprite-Map.png") no-repeat 0 -97px;
 }
 
 /* OFF STATE */
 #portfolio a:link {
-	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -128px;
+	background: url("../sprites/Sprite-Map.png") no-repeat 0 -128px;
 }
   
 /* ON STATE */
 #portfolio a:hover {
-	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -160px;
+	background: url("../sprites/Sprite-Map.png") no-repeat 0 -160px;
 }
 
 /* OFF STATE */
 #contact-me a:link {
-	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -192px;
+	background: url("../sprites/Sprite-Map.png") no-repeat 0 -192px;
 }
   
 /* ON STATE */
 #contact-me a:hover {
-	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -224px;
+	background: url("../sprites/Sprite-Map.png") no-repeat 0 -224px;
 }
 
 /* show home.png (OFF STATE) */
 #pinterest a:link {
-  background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -256px; ;
+  background: url("../sprites/Sprite-Map.png") no-repeat 0 -256px; ;
 }
 
 /* show home.png (ON STATE) */
 #pinterest a:hover {
-  background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -288px;
+  background: url("../sprites/Sprite-Map.png") no-repeat 0 -288px;
 }
 
 /* OFF STATE */
 #facebook a:link {
-	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -320px;
+	background: url("../sprites/Sprite-Map.png") no-repeat 0 -320px;
 }
 
 /* ON STATE */
 #facebook a:hover {
-	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -352px;
+	background: url("../sprites/Sprite-Map.png") no-repeat 0 -352px;
 }
 
 /* OFF STATE */
 #github a:link {
-	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -384px;
+	background: url("../sprites/Sprite-Map.png") no-repeat 0 -384px;
 }
   
 /* ON STATE */
 #github a:hover {
-	background: url("../img/sprites/Sprite-Map.png") no-repeat 0 -416px;
+	background: url("../sprites/Sprite-Map.png") no-repeat 0 -416px;
 }
 
 
